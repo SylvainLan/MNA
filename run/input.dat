@@ -1,0 +1,8 @@
+0.0            !tini: temps initial  
+2.0            !tend: temps final
+70001          !nt: nombre de points de la discretisation temporelle
+0.0            !xmin: limite gauche du domaine
+80.0           !xmax: limite droite du domaine
+1002           !nx: nb de points de la discretisation spatiale
+imex               !method: methode d'intégration (euler, radau5, rock4)
+1.d-12         !tol: tolerance for radau5 and rock4
